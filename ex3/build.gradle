@@ -1,0 +1,5 @@
+['Dev', 'Stg', 'Prod'].each { environment ->
+    task "deployTo${environment}" << { task ->
+        println "Deploying to ${environment}"
+    }
+}

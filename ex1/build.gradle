@@ -1,0 +1,4 @@
+// define a simple task
+task hello << {
+    println "Hello, World!"
+}
